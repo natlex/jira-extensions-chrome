@@ -1,0 +1,12 @@
+.nx-jira-ex-options {
+    width: 500px;
+    padding: 20px;
+}
+
+.nx-jira-ex-options .btn {
+    cursor: pointer;
+}
+
+.nx-jira-ex-options .form-control.is-invalid~#urlPatternHelp {
+    display: none;
+}
