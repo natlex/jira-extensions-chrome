@@ -3,7 +3,7 @@
 
     function loadOptions() {
         chrome.storage.sync.get(["urlPattern"], function(data) {
-            const urlPattern = data && data.urlPattern || "https://.*\.com/jira/.*";
+            const urlPattern = data && data.urlPattern || "https://jira.*";
             urlPatternInput.value = urlPattern;
         });
     }
